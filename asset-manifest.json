@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-admintehgaz/static/css/main.2116c12a.css",
+    "main.js": "/react-admintehgaz/static/js/main.74b062fe.js",
+    "index.html": "/react-admintehgaz/index.html",
+    "main.2116c12a.css.map": "/react-admintehgaz/static/css/main.2116c12a.css.map",
+    "main.74b062fe.js.map": "/react-admintehgaz/static/js/main.74b062fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2116c12a.css",
+    "static/js/main.74b062fe.js"
+  ]
+}
