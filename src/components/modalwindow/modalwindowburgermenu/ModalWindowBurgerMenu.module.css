@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 90%;
+    margin-left: 5%;
+    margin-right: 15%;
+    height: 300px;
+    background-color: cadetblue;
+    position: relative;
+    border-radius: 5px;
+    z-index: 1;
+    top: 20px;
+
+
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 50px;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-width: 99%;
+    font-size: calc(30px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    color: #FFF0F5;
+    border: none;
+    background-color: #4682B4;
+    min-height: 50px;
+
+}

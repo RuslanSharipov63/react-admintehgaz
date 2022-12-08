@@ -1,0 +1,208 @@
+/* с листа */
+
+.bigContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.littleContainer {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.application {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border: 1px solid orange;
+    font-size: calc(10px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #00FFFF;
+    word-break: break-all;
+
+}
+
+.someСlass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 5px;
+}
+
+.itemAppplTime {
+    font-size: calc(10px + 16 * (80vw / 1280));
+    color: red;
+    overflow-wrap: break-word;
+
+}
+
+.itemApppl {
+    font-size: calc(10px + 16 * (80vw / 1280));
+    color: blue;
+    padding: 1%;
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 2%;
+    min-height: 10px;
+    word-wrap: break-word;
+
+}
+
+.inpAdd {
+    max-width: 400px;
+    padding: 5px;
+    margin: 5px 5px;
+    font-size: calc(10px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    border: 2px solid #0000FF;
+    outline: none;
+    text-align: center;
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    min-height: 50px;
+    font-size: 2vw;
+    border-radius: 5px;
+    border: 2px solid blue;
+    
+}
+
+.btnDelEdit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    min-height: 60px;
+    margin-bottom: 5px; 
+}
+
+
+.title {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3px;
+    font-size: calc(20px + 16 * (80vw / 1280));
+    text-align: left;
+
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: calc(10px + 16 * (80vw / 1280));
+}
+
+.search {
+    max-width: 100%;
+    padding: 5px;
+    margin: 10px 10px;
+    outline: none;
+    font-size: calc(5px + 16 * (80vw / 1280));
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ */
+/* с формы */
+
+.someСlassFormDebt {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 5px;
+}
+
+.inpAdd {
+    max-width: 400px;
+    padding: 5px;
+    margin: 5px 5px;
+    font-size: calc(10px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    border: 2px solid #0000FF;
+    outline: none;
+    text-align: center;
+}
+
+/* ++++++++++++++++++++++++++++++ */
+/* медиа запросы */
+@media (max-width: 800px) {
+    .someСlassFormDebt {
+        justify-content: center;
+        min-width: 85%;
+        margin-left: 14%;
+        margin-right: 1%;
+        
+    }
+    .inpAdd {
+         font-size: 5vw;
+    }
+
+    .someСlass {
+        min-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .application {
+        min-width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        font-size: 5vw;
+    }
+    
+    .itemAppplTime, .itemApppl {
+        font-size: 5vw;
+    }
+
+    .btnDelEdit {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .btn {
+        font-size: 4vw;
+    }
+
+}

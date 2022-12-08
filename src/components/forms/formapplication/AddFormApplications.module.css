@@ -1,0 +1,136 @@
+.allcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.someСlass {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 5px;
+
+}
+
+.inpAdd {
+    max-width: 400px;
+    padding: 5px;
+    margin: 5px 5px;
+    font-size: calc(10px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    border: 2px solid #0000FF;
+    outline: none;
+    text-align: center;
+
+}
+
+
+.stateGazApl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px 50px;
+    max-width: 30vw;
+    padding: 1px;
+    font-size: calc(5px + 16 * (100vw / 1280));
+    border-radius: 5px;
+    border: 2px solid red;
+    outline: none;
+    text-align: center;
+
+}
+
+.inpCountBal {
+    max-width: 200px;
+    padding: 10px;
+    margin: 5px 5px;
+    font-size: calc(10px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    border: 2px solid #0000FF;
+    outline: none;
+    text-align: center;
+}
+
+.butDelGazApl {
+    max-width: 200px;
+    padding: 5px;
+    margin: 10px 10px;
+    font-size: calc(5px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    border: 2px solid #0000FF;
+    outline: none;
+    text-align: center;
+}
+
+.title {
+    padding: 3px;
+    font-size: calc(20px + 16 * (80vw / 1280));
+}
+
+.pModalWindow {
+    color: white;
+    font-size: 1em;
+}
+
+
+@media (max-width: 1000px) {
+
+    .allcontainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .someСlass {
+        justify-content: center;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5px;
+        
+    }
+
+    .inpAdd {
+        font-size: 4vw;
+        min-width: 80%;
+    }
+
+    .inpCountBal {
+        font-size: 4vw;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .stateGazApl {
+        font-size: 4vw;
+        min-width: 80%;
+    }
+
+    .butDelGazApl {
+        font-size: 3vw;
+        max-width: 100%;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .inpAdd {
+        font-size: 6vw;
+        
+    }
+
+    .inpCountBal {
+        font-size: 6vw;
+       
+    }
+
+}

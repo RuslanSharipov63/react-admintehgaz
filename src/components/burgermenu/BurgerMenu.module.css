@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.containerMenu {
+    display: flex;
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50px;
+
+}
+
+.item {
+    display: flex;
+    width: 100%;
+    border: 0.1px solid blue;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    max-width: 45%;
+    margin-right: 25%;
+    font-size: 150%;
+    
+}
+
+.itemClick {
+    display: flex;
+    width: 100%;
+    border: 0.1px solid blue;
+    cursor: pointer;
+    transform: rotate(45deg)
+}
+
+.itemClickTwo {
+    display: flex;
+    width: 100%;
+    border: 0.1px solid blue;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    position: relative;
+    left: 1px;
+    bottom: 2px;
+}
+
+.itemClickThree {
+    display: none;
+}

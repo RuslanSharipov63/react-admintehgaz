@@ -1,0 +1,178 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-left: 5%;
+}
+
+.selectContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+
+}
+
+.inpSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 10px;
+    margin: 5px 5px;
+    font-size: calc(10px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    border: 2px solid #0000FF;
+    outline: none;
+    text-align: center;
+}
+
+.inpCountBal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 10px;
+    margin: 5px 5px;
+    font-size: calc(10px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    border: 2px solid #0000FF;
+    outline: none;
+    text-align: center;
+}
+
+.inpAdd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 5px;
+    margin: 5px 5px;
+    font-size: calc(10px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    border: 2px solid #0000FF;
+    outline: none;
+    text-align: center;
+
+}
+
+.stateGazApl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1px;
+    /* font-size: calc(5px + 16 * (100vw / 1280)); */
+    border-radius: 5px;
+    border: 2px solid red;
+    outline: none;
+    text-align: center;
+
+}
+
+
+
+.butDelGazApl {
+    max-width: 100%;
+    padding: 5px;
+    margin: 10px 10px;
+    font-size: calc(5px + 16 * (80vw / 1280));
+    border-radius: 5px;
+    border: 2px solid #0000FF;
+    outline: none;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+@media (max-width: 800px) {
+
+    .inpSelect {
+        font-size: 4vw;
+        max-width: 80%;
+    }
+
+    .inpAdd {
+        font-size: 4vw;
+        max-width: 80%;
+    }
+
+    .inpCountBal {
+        font-size: 4vw;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .stateGazApl {
+        font-size: 4vw;
+        min-width: 80%;
+    }
+
+    .butDelGazApl {
+        font-size: 3vw;
+        max-width: 100%;
+
+    }
+
+    .selectContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .inpSelect {
+        width: 90%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .inpCountBal {
+       
+        width: 90%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .inpAdd {
+        font-size: 6vw;
+
+    }
+
+    .inpCountBal {
+        font-size: 6vw;
+
+    }
+
+  
+}
